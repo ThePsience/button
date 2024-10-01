@@ -24,10 +24,10 @@ button.addEventListener('click', () => {
 
   if (counter >= 5 && counter <= 10) {
     // Fade from red to yellow
-    green = Math.floor((counter - 5) * 51); // 255 / 5 = 51
+    green = Math.floor((counter - 5) * 51);
   } else if (counter > 10 && counter <= 20) {
     // Fade from yellow to green
-    red = 255 - Math.floor((counter - 10) * 25.5); // 255 / 10 = 25.5
+    red = 255 - Math.floor((counter - 10) * 25.5);
     green = 255;
   } else if (counter > 20) {
     // Stay green
